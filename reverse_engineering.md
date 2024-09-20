@@ -9,8 +9,8 @@
 # Disassembly (understand the code)
 ## Step 1. Follow strings found via string analysis
 ![image](https://github.com/user-attachments/assets/a7675c5e-ea3b-4a22-9fb1-7b239a1d4166)
-In this example we found a string key and found where the string is located
-
+In this example we found a string key and found where the location that references this string
+## Step 2. Find the attached functions
 By clicking on the reference in the assembly seem above, we can find the function and it's decompiled result:
 ![image](https://github.com/user-attachments/assets/a0b1c3fb-4650-4017-9558-3034d1fc0acb)
 ```
@@ -51,7 +51,7 @@ This part of the code represents the success condition, which begs the question:
 iVar2 = FUN_00401000(local_1c);
 ```
 This is set by a function "FUN_00401000"
-
+# 3. Decode 
 Select the function and find the code:
 ```
 undefined4 __cdecl FUN_00401000(char *param_1)
