@@ -1,3 +1,20 @@
+# Pseudo Code
+```
+main:
+	mov rax, 16 	// move 16 into rax registry
+	push rax 	// push 16 to the stack
+	jmp mem2 	// jump unconditional to function "mem2"
+
+mem1:
+	mov rax, 8 	// move 8 to rax register
+	ret 		// return value of first return register (rax)
+
+mem2:
+	pop r8 		// remove top off stack (8 bytes) to register r8
+	cmp rax, r8 	// compaer value of rax (16) to the value of r8 (16) they are equal
+	je mem1 	// jump on equal to function mem1
+```
+# HELLO WORLD
 Example C code:
 ```
 #include<stdio.h>
