@@ -18,6 +18,17 @@ Note: x86_64 can operate with 64, 32, or 16 bit registries
 |16-bit |`AX`	|`BX` 	|`CX` 	|`SP` 	|`BP` 	|`DI` 	|`SI` 	|`DX`|
 |8-bit	|`AH`/`AL`|`BH`/`BL`|`CH`/`CL`||`SPL`|`BPL`| `SIL` | `DH`,`DL`|
 
+| Register | 64-bit | 32-bit | 16-bit | 8-bit | Definition |
+|Register|`RAX`	|
+|Accumulator|`RBX`	|
+|Base|`RCX`	|
+|Counter|`RSP` 	|
+|Stack Pointer|`RBP`	|
+|Stack Base Pointer|`RDI` 	|
+|Destination|`RSI` 	|
+|Source|`RDX`	|
+
+
 ## Instructions
 | Operation | Description |
 | - | - |
