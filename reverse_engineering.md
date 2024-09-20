@@ -19,6 +19,19 @@ Note: x86_64 can operate with 64, 32, or 16 bit registries
 |8-bit	|`AH`/`AL`|`BH`/`BL`|`CH`/`CL`||`SPL`|`BPL`| `SIL` | `DH`,`DL`|
 
 ## Instructions
+| Operation | Description |
+| - | - |
+|MOV|move source to destination|
+|PUSH|push source onto stack|
+|POP|Pop top of stack to destination|
+|INC|Increment source by 1|
+|DEC|Decrement source by 1|
+|ADD|Add source to destination|
+|SUB|Subtract source from destination|
+|CMP|Compare 2 values by subtracting them and setting the %RFLAGS register. ZeroFlag set means they are the same.|
+|JMP|Jump to specified location|
+|JLE|Jump if less than or equal|
+|JE|Jump if equal|
 
 ## 
 
