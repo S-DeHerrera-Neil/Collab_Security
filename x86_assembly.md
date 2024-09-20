@@ -13,21 +13,21 @@ Note: x86_64 can operate with 64, 32, or 16 bit registries
 
 |Register |Accumulator| Base | Counter |Stack Pointer | Stack Base Pointer |Destination |Source |Data|
 | - | - | - | - | - | - | - | - | - |
-|64-bit |`RAX` 	|`RBX` 	|`RCX` 	|`RSP` 	|`RBP`	|`RDI` 	|`RSI` 	|`RDX`|
-|32-bit |`EAX` 	|`EBX` 	|`ECX` 	|`ESP` 	|`EBP` 	|`EDI` 	|`ESI` 	|`EDX`|
-|16-bit |`AX`	|`BX` 	|`CX` 	|`SP` 	|`BP` 	|`DI` 	|`SI` 	|`DX`|
-|8-bit	|`AH`/`AL`|`BH`/`BL`|`CH`/`CL`||`SPL`|`BPL`| `SIL` | `DH`,`DL`|
+|64-bit |`RAX` 	|`RBX` 		|`RCX` 		|`RSP` 	|`RBP`	|`RDI` 	|`RSI` 	|`RDX`|
+|32-bit |`EAX` 	|`EBX` 		|`ECX` 		|`ESP` 	|`EBP` 	|`EDI` 	|`ESI` 	|`EDX`|
+|16-bit |`AX`	|`BX` 		|`CX` 		|`SP` 	|`BP` 	|`DI` 	|`SI` 	|`DX`|
+|8-bit	|`AH`/`AL`|`BH`/`BL`	|`CH`/`CL`	|`SPL`  |`BPL`	| `SIL` | `DH`,`DL`|
 
 | Register 		| 64-bit | 32-bit | 16-bit | 8-bit | Definition |
 | - | - | - | - | - | - |
 |Accumulator		|`RAX`|`EAX`|`AX`|`AH`/`AL`|
-|Base			|`RBX`|``|``|``/``|
-|Counter		|`RCX`|
-|Stack Pointer		|`RSP`|
-|Stack Base Pointer	|`RBP`|
-|Destination		|`RDI`|
-|Source			|`RSI`|
-|Data			|`RDX`|
+|Base			|`RBX`|`EBX`|`BX`|`BH`/`BL`|
+|Counter		|`RCX`|`ECX`|`CX`|`CH`/`CL`|
+|Stack Pointer		|`RSP`|`ESP`|`SP`|`SPL`|
+|Stack Base Pointer	|`RBP`|`EBP`|`BP`|`BPL`|
+|Destination		|`RDI`|`EDI`|`DI`|``|
+|Source			|`RSI`|`ESI`|`SI`|`SIL`|
+|Data			|`RDX`|`EDX`|`DX`|`DH`/`DL`|
 
 
 ## Instructions
