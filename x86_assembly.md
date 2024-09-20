@@ -20,7 +20,7 @@ Note: x86_64 can operate with 64, 32, or 16 bit registries
 
 | Register 		| 64-bit | 32-bit | 16-bit | 8-bit | Definition |
 | - | - | - | - | - | - |
-|Accumulator		|`RAX`|`EAX`|`AX`|`AH` `AL`|Used in arithmetic operations. Opcodes combining constants into accumulator are 1-byte|
+|Accumulator		|`RAX`|`EAX`|`AX`|`AH` `AL`|Used in arithmetic operations. Opcodes combining constants into accumulator are 1-byte (DEFAULT RETURN POINTER) |
 |Base			|`RBX`|`EBX`|`BX`|`BH` `BL`|Used as a pointer to data (located in segment register DS, when in segmented mode)|
 |Counter		|`RCX`|`ECX`|`CX`|`CH` `CL`|Used in shift/rotate instructions and loops|
 |Stack Pointer		|`RSP`|`ESP`|`SP`|`SPL`|Pointer to the top of the stack|
