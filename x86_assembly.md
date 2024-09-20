@@ -25,7 +25,7 @@ Note: x86_64 can operate with 64, 32, or 16 bit registries
 |Counter		|`RCX`|`ECX`|`CX`|`CH` `CL`|Used in shift/rotate instructions and loops|
 |Stack Pointer		|`RSP`|`ESP`|`SP`|`SPL`|Pointer to the top of the stack|
 |Stack Base Pointer	|`RBP`|`EBP`|`BP`|`BPL`|Used to point to the base of the stack|
-|Destination		|`RDI`|`EDI`|`DI`||Used as a pointer to a destination in stream operations|
+|Destination		|`RDI`|`EDI`|`DI`|`DIL`|Used as a pointer to a destination in stream operations|
 |Source			|`RSI`|`ESI`|`SI`|`SIL`|Used as a pointer to a source in stream operations|
 |Data			|`RDX`|`EDX`|`DX`|`DH` `DL`|Used in arithmetic operations and I/O operations|
 
