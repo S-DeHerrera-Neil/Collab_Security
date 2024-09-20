@@ -19,6 +19,7 @@ Note: x86_64 can operate with 64, 32, or 16 bit registries
 |8-bit	|`AH`/`AL`|`BH`/`BL`|`CH`/`CL`||`SPL`|`BPL`| `SIL` | `DH`,`DL`|
 
 | Register | 64-bit | 32-bit | 16-bit | 8-bit | Definition |
+| - | - | - | - | - | - |
 |Register|`RAX`	|
 |Accumulator|`RBX`	|
 |Base|`RCX`	|
