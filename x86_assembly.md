@@ -20,14 +20,14 @@ Note: x86_64 can operate with 64, 32, or 16 bit registries
 
 | Register 		| 64-bit | 32-bit | 16-bit | 8-bit | Definition |
 | - | - | - | - | - | - |
-|Accumulator		|`RAX`|`EAX`|`AX`|`AH`/`AL`|Used in arithmetic operations. Opcodes combining constants into accumulator are 1-byte|
-|Base			|`RBX`|`EBX`|`BX`|`BH`/`BL`|Used as a pointer to data (located in segment register DS, when in segmented mode)|
-|Counter		|`RCX`|`ECX`|`CX`|`CH`/`CL`|Used in shift/rotate instructions and loops|
+|Accumulator		|`RAX`|`EAX`|`AX`|`AH` `AL`|Used in arithmetic operations. Opcodes combining constants into accumulator are 1-byte|
+|Base			|`RBX`|`EBX`|`BX`|`BH` `BL`|Used as a pointer to data (located in segment register DS, when in segmented mode)|
+|Counter		|`RCX`|`ECX`|`CX`|`CH` `CL`|Used in shift/rotate instructions and loops|
 |Stack Pointer		|`RSP`|`ESP`|`SP`|`SPL`|Pointer to the top of the stack|
 |Stack Base Pointer	|`RBP`|`EBP`|`BP`|`BPL`|Used to point to the base of the stack|
 |Destination		|`RDI`|`EDI`|`DI`||Used as a pointer to a destination in stream operations|
 |Source			|`RSI`|`ESI`|`SI`|`SIL`|Used as a pointer to a source in stream operations|
-|Data			|`RDX`|`EDX`|`DX`|`DH`/`DL`|Used in arithmetic operations and I/O operations|
+|Data			|`RDX`|`EDX`|`DX`|`DH` `DL`|Used in arithmetic operations and I/O operations|
 
 
 ## Instructions
