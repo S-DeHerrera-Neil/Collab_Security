@@ -16,7 +16,7 @@ Note: x86_64 can operate with 64, 32, or 16 bit registries
 |64-bit |`RAX` 	|`RBX` 		|`RCX` 		|`RSP` 	|`RBP`	|`RDI` 	|`RSI` 	|`RDX`|
 |32-bit |`EAX` 	|`EBX` 		|`ECX` 		|`ESP` 	|`EBP` 	|`EDI` 	|`ESI` 	|`EDX`|
 |16-bit |`AX`	|`BX` 		|`CX` 		|`SP` 	|`BP` 	|`DI` 	|`SI` 	|`DX`|
-|8-bit	|`AH`/`AL`|`BH`/`BL`	|`CH`/`CL`	|`SPL`  |`BPL`	| `SIL` | `DH`,`DL`|
+|8-bit	|`AH` `AL`|`BH` `BL`	|`CH` `CL`	|`SPL`  |`BPL`	| `SIL` | `DH`,`DL`|
 
 | Register 		| 64-bit | 32-bit | 16-bit | 8-bit | Definition |
 | - | - | - | - | - | - |
